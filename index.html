@@ -1,10 +1,8 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>CA NITIN - Index Trading Expert</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 <!-- Meta Pixel Code -->
@@ -26,7 +24,7 @@ src="https://www.facebook.com/tr?id=2935171623504664&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 20px 80px 20px;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden;position:relative;}
+body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 20px 80px 20px;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden;position:relative;background:#021314;}
 .video-bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;}
 .overlay{position:fixed;inset:0;background:rgba(2,20,22,0.88);z-index:-1;}
 .rb-circles{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0;}
@@ -35,6 +33,7 @@ body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;
 .rb-c2{width:400px;height:400px;bottom:-150px;left:-150px;border-color:rgba(20,184,166,0.05);}
 .rb-c3{width:220px;height:220px;top:35%;right:8%;border-color:rgba(20,184,166,0.06);}
 .rb-glow{position:fixed;top:-120px;left:50%;transform:translateX(-50%);width:500px;height:350px;background:radial-gradient(ellipse,rgba(13,148,136,0.18) 0%,transparent 70%);pointer-events:none;z-index:0;}
+
 .rb-card{width:100%;max-width:410px;position:relative;z-index:2;animation:rb-up 0.65s cubic-bezier(0.16,1,0.3,1) both;margin-bottom:20px;}
 @keyframes rb-up{from{opacity:0;transform:translateY(28px);}to{opacity:1;transform:translateY(0);}}
 .rb-top{background:#03191c;border:1px solid rgba(20,184,166,0.25);border-radius:28px 28px 0 0;padding:36px 28px 28px;text-align:center;position:relative;overflow:hidden;}
@@ -45,6 +44,7 @@ body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;
 .rb-verified{position:absolute;bottom:2px;right:2px;width:26px;height:26px;background:#14b8a6;border-radius:50%;border:2px solid #03191c;display:flex;align-items:center;justify-content:center;font-size:12px;color:#fff;}
 .rb-name{font-family:'Playfair Display',serif;font-size:26px;font-weight:800;color:#e8fffb;line-height:1.2;margin-bottom:6px;}
 .rb-designation{display:inline-flex;align-items:center;gap:6px;background:rgba(20,184,166,0.1);border:1px solid rgba(20,184,166,0.25);border-radius:20px;padding:5px 14px;font-size:11px;color:#5eead4;font-weight:500;letter-spacing:0.5px;margin-top:4px;}
+
 .rb-body{background:#021314;border:1px solid rgba(20,184,166,0.18);border-top:none;border-radius:0 0 28px 28px;padding:24px 28px 24px;}
 .rb-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:22px;}
 .rb-stat{background:rgba(20,184,166,0.07);border:1px solid rgba(20,184,166,0.16);border-radius:14px;padding:14px 8px;text-align:center;}
@@ -103,6 +103,134 @@ body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;
   animation: blink 1s infinite;
 }
 @keyframes blink { 50% { opacity: 0.7; } }
+
+.footer-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: relative;
+}
+.footer-link {
+  color: #7fb8ae;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+}
+.footer-link:hover {
+  color: #2dd4d4;
+}
+.footer-divider {
+  color: #2dd4d4;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* Social Media Icons Styling */
+.social-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+  z-index: 2;
+  position: relative;
+}
+.social-icon-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(20, 184, 166, 0.08);
+  border: 1px solid rgba(20, 184, 166, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2dd4d4;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.social-icon-btn:hover {
+  background: rgba(20, 184, 166, 0.25);
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+}
+.social-icon-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* Pop-up Modal Styling */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-box {
+  background: #191c1f;
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  padding: 28px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+.modal-overlay.active .modal-box {
+  transform: scale(1);
+}
+.modal-title {
+  color: #facc15;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-close {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+  transition: color 0.2s ease;
+}
+.modal-close:hover {
+  color: #ffffff;
+}
+.modal-content {
+  color: #d1d5db;
+  font-size: 14px;
+  line-height: 1.6;
+}
 </style>
 </head>
 <body>
@@ -164,9 +292,49 @@ body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;
       <div class="rb-footer-txt">@Adzonn · Stay ahead with knowledge</div>
       <a href="#" target="_blank" class="rb-agency">📱 SIVIADSAGENCY</a>
     </div>
-    
-    <div class="rb-fixed-disclaimer">
-      <strong>DISCLAIMER:</strong> Educational platform.KAROL is NOT SEBI registered. No tips or investment advice provided. Trading involves financial risk. This site is not part of Meta.
+  </div>
+</div>
+
+<div class="rb-fixed-disclaimer">
+  <strong>DISCLAIMER:</strong> Educational platform. KAROL is NOT SEBI registered. No tips or investment advice provided. Trading involves financial risk. This site is not part of Meta.
+</div>
+
+<!-- 4 Modal Action Buttons -->
+<div class="footer-links-container">
+  <button class="footer-link" onclick="openModal('about')">About Us</button>
+  <span class="footer-divider">|</span>
+  <button class="footer-link" onclick="openModal('terms')">Terms</button>
+  <span class="footer-divider">|</span>
+  <button class="footer-link" onclick="openModal('disclaimer')">Disclaimer</button>
+  <span class="footer-divider">|</span>
+  <button class="footer-link" onclick="openModal('contact')">Contact Us</button>
+</div>
+
+<!-- Social Media Links -->
+<div class="social-icons-container">
+  <!-- Facebook -->
+  <a href="https://facebook.com" target="_blank" class="social-icon-btn" title="Facebook">
+    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+  </a>
+  <!-- Instagram -->
+  <a href="https://instagram.com" target="_blank" class="social-icon-btn" title="Instagram">
+    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+  </a>
+  <!-- WhatsApp -->
+  <a href="https://wa.me/" target="_blank" class="social-icon-btn" title="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  </a>
+</div>
+
+<!-- Pop-up Modal Container -->
+<div class="modal-overlay" id="customModal" onclick="closeModalOnOverlay(event)">
+  <div class="modal-box">
+    <div class="modal-title">
+      <span id="modalTitleText">Title</span>
+      <button class="modal-close" onclick="closeModal()">×</button>
+    </div>
+    <div class="modal-content" id="modalBodyText">
+      Content goes here...
     </div>
   </div>
 </div>
@@ -215,6 +383,49 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 300);        
   }
 });
+
+// Modal Pop-Up Data & Functions
+const modalData = {
+  about: {
+    title: "About Us",
+    content: "Welcome to our community! We provide market insights, educational strategies, and continuous market updates to help traders and learners improve their skills."
+  },
+  terms: {
+    title: "Terms & Conditions",
+    content: "By accessing and using this platform, you agree to our terms. All contents provided are purely for educational and informational purposes. Trading involves significant risk, and users are expected to conduct their own analysis."
+  },
+  disclaimer: {
+    title: "Disclaimer",
+    content: "We are NOT SEBI registered advisors. Content shared here is not intended as financial, investment, or trading advice. Please consult a qualified financial advisor before making any investment decisions."
+  },
+  contact: {
+    title: "Contact Us",
+    content: "If you have any queries, support issues, or feedback, feel free to reach out to us via our official social handles or contact us through our agency support team at support@siviadsagency.com."
+  }
+};
+
+function openModal(key) {
+  const modal = document.getElementById('customModal');
+  const title = document.getElementById('modalTitleText');
+  const body = document.getElementById('modalBodyText');
+  
+  if (modalData[key]) {
+    title.textContent = modalData[key].title;
+    body.textContent = modalData[key].content;
+    modal.classList.add('active');
+  }
+}
+
+function closeModal() {
+  const modal = document.getElementById('customModal');
+  modal.classList.remove('active');
+}
+
+function closeModalOnOverlay(e) {
+  if (e.target.classList.contains('modal-overlay')) {
+    closeModal();
+  }
+}
 </script>
 
 </body>
